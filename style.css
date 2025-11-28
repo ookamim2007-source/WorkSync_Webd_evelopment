@@ -6,7 +6,7 @@ body {
       color: #1a1a1a;
     }
 
-    .hero {
+    .bemutató {
       text-align: center;
       padding: 120px 20px 160px;
       max-width: 900px;
@@ -58,7 +58,7 @@ body {
     }
 
     .btn-primary {
-      background: #0f67ff;
+      background-color: #0f67ffbe;
       color: white;
       padding: 14px 28px;
       border-radius: 8px;
@@ -70,7 +70,7 @@ body {
     }
 
     .btn-primary:hover {
-      background: #0054d6;
+      background: #0056d6cc;
     }
 
     .btn-secondary {
@@ -111,8 +111,12 @@ body {
 .features-title {
   font-size: 26px;
   font-weight: 500;
-  color: #444;
+  color: #ffffff;
   margin-bottom: 50px;
+  background-color: #0f67ffbe;
+  border-radius: 20px;
+  padding-top: -60px;
+  
 }
 
 .feature-grid {
@@ -133,7 +137,7 @@ body {
 
 .feature-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 8px 20px rgba(31, 24, 24, 0.1);
 }
 
 .icon {
@@ -154,4 +158,49 @@ body {
   line-height: 1.5;
 }
 
+
+.cta-section{
+
+align-items: center;
+display: flex;
+justify-content: center;
+
+}
+
+.CTA-P, .CTA-h2 {
+color: white;
+}
+
+.container-CTA{
+font-family: "Inter", Arial, sans-serif;
+text-align: center;
+background-color: #0f67ffbe;
+border: 1px  rgba(128, 128, 128, 0.699);
+width: 1250px;
+border-radius: 20px;
+}
   
+
+
+.footer-content{
+    gap: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.FUC{
+margin-left: -490px;
+
+
+
+}
+
+.copyright{
+
+text-align: center;
+
+
+}
