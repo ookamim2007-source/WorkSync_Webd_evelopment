@@ -1,4 +1,3 @@
-
 body {
       margin: 0;
       font-family: "Inter", Arial, sans-serif;
@@ -183,7 +182,7 @@ border-radius: 20px;
 
 
 .footer-content{
-    gap: 500px;
+    gap: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,6 +200,185 @@ margin-left: -490px;
 .copyright{
 
 text-align: center;
+
+
+}
+
+
+footer{
+
+background-color: #0f67ffbe;
+height: 200px;
+color: white;
+
+}
+
+a{
+color: #e6f0ff;
+text-decoration: none;
+
+}
+
+.arkepzes-racs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.arkepzes-kartya {
+  background: var(--sotet-vilagos);
+  padding: 40px 30px;
+  border-radius: 16px;
+  border: 1px solid rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.arkepzes-kartya:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgb(252, 250, 250);
+}
+
+.arkepzes-kartya.kiemelt {
+  border-width: 10px;
+  border-color:#0f67ffbe;
+  box-shadow: 0 0 0 1px var(--fo-szinu);
+}
+
+.arkepzes-cimke {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--fo-szinu);
+  color: var(--feher);
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.arkepzes-nev {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--feher);
+}
+
+.arkepzes-ar {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--fo-szinu);
+  margin-bottom: 5px;
+}
+
+.arkepzes-idoszak {
+  color: var(--szurke);
+  margin-bottom: 30px;
+}
+
+.arkepzes-funkciok {
+  list-style: none;
+  margin-bottom: 30px;
+  flex-grow: 1;
+}
+
+.arkepzes-funkciok li {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.arkepzes-funkciok li i {
+  color: var(--fo-szinu);
+}
+
+.arkepzes-funkciok li i.fa-times {
+  color: var(--szurke);
+}
+
+.funkciok {
+  padding: 100px 20px;
+  background-color: var(--sotet-vilagos);
+}
+
+.funkciok-cime {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 60px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.funkcio-racs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.funkcio-kartya {
+  background: var(--sotet);
+  padding: 30px;
+  border-radius: 16px;
+  border: 1px solid rgb(255, 255, 255);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.funkcio-kartya:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.funkcio-kartya .ikon {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.funkcio-kartya h3 {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: var(--feher);
+}
+
+.funkcio-kartya p {
+  color: var(--szurke);
+}
+
+
+.arkepzes {
+  padding: 100px 20px;
+  background-color: var(--sotet);
+}
+
+.szekcio-cime {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 60px;
+}
+
+
+.gombArAjanlat{
+
+border-color: #e2e2e2;
+border-radius: 20px;
+background-color:#0f67ffbe; 
+color:white ;
+
+
+}
+
+
+
+
+.GombFőAjanlat{
+
+border-color: #e2e2e2;
+border-radius: 20px;
+
 
 
 }
